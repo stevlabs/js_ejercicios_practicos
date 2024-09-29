@@ -19,7 +19,123 @@
             <p id="ejercicio1"></p>
         </article>
         <article>
-            
+            <h2>EJERCICIO 2</h2>
+            <p>
+                Crea un objeto que represente un producto con las propiedades nombre, precio, y disponible (un booleano). Escribe una función que imprima la información del producto solo si está disponible.
+            </p>
+            <p id="ejercicio2"></p>
+        </article>
+        <article>
+            <h2>EJERCICIO 3</h2>
+            <p>
+                Crea un array de objetos que representen libros, cada uno con las propiedades titulo, autor, y anio. Escribe una función que reciba el array y devuelva solo los libros publicados después del año 2000.
+            </p>
+            <p id="ejercicio3"></p>
+        </article>
+        <article>
+            <h2>EJERCICIO 4</h2>
+            <p>
+                Crea un array de objetos que representen productos, con propiedades nombre, precio, y categoria. Escribe una función que devuelva todos los productos de una categoría específica.
+            </p>
+            <p id="ejercicio4"></p>
+        </article>
+        <article>
+            <h2>EJERCICIO 5</h2>
+            <p>
+                <ol>
+                    <li>Solicite al usuario el ingreso por teclado de 3 notas.</li>
+                    <li>Saque la media de las notas.</li>
+                    <li>Muestre por pantalla</li>
+                    <ul>
+                        <li>si la nota es menor que 5 'SUSPENSO'</li>
+                        <li>si la nota es mayor o igual 5 y menor que 7 'APROBADO'</li>
+                        <li>si es mayor o igual que 7 y menor o igual que 10 'SOBRESALIENTE'</li>
+                    </ul>
+                </ol>
+            </p>
+            <form action="">
+                <p>
+                    <label for="nota1">Ingrese la primera nota:</label>
+                    <input type="number" id="nota1" step="0.1" value="5" required>
+                </p>
+                <p>
+                    <label for="nota2">Ingrese la segunda nota:</label>
+                    <input type="number" id="nota2" step="0.1" value="8" required>
+                </p>
+                <p>
+                    <label for="nota3">Ingrese la tercera nota:</label>
+                    <input type="number" id="nota3" step="0.1" value="6" required>
+                </p>
+                <button type="button" onclick="calcularClasificarMedia()">Calcular Y Clasificar Media</button>
+                <p id="ejercicio5" style="display: inline;"></p>
+            </form>
+        </article>
+        <article>
+            <h2>EJERCICIO 6</h2>
+            <p>Hacer un programa que:</p>
+            <ol>
+                <li>Ingreso de un numero por teclado</li>
+                <li>Muestre por pantalla si ese numero es de 1 cifra 2 cifras o 3 cifras.</li>
+            </ol>
+            <form action="">
+                <p>
+                    <label for="numero">Ingrese un número:</label>
+                    <input type="number" id="numero" value="255" required>
+                </p>
+                <button type="button" onclick="comprobarCifras()">Calcular Cifras</button>
+                <p id="ejercicio6" style="display: inline;"></p>
+            </form>
+        </article>
+        <article>
+            <h2>EJERCICIO 7</h2>
+            <p>
+                Solicite al usuario que escriba un color. Si ese color existe que lo traduzca al inglés, sino que muestre un mensaje de error.
+            </p>
+            <form action="">
+                <p>
+                    <label for="color">Escribe un color:</label>
+                    <input type="text" id="color" value="Azul" required>
+                </p>
+                <button type="button" onclick="comprobarColor()">Comprobar Color</button>
+                <p id="ejercicio7" style="display: inline;"></p>
+            </form>
+        </article>
+        <article>
+            <h2>EJERCICIO 8</h2>
+            <p>
+                se solicita al usuario que ingrese por teclado 10 números, el programa devolverá:
+            </p>
+            <ol>
+                <li>Cuantos son positivos.</li>
+                <li>Cuantos son negativos</li>
+                <li>Cuantos son pares.</li>
+            </ol>
+            <p id="ejercicio8"></p>
+        </article>
+        <article>
+            <h2>EJERCICIO 9</h2>
+            <p>
+                Se solicitan 10 números enteros comprendidos entre 1 y 500, estos números se almacenarán en un array.:
+            </p>
+            <ol>
+                <li>Almacenar todos los números en un array.</li>
+                <li>Almacenar en otro array los números comprendidos entre el 1 y 250.</li>
+                <li>Almacenar en otro array los números comprendidos entre el 251 y 500.</li>
+            </ol>
+            <p id="ejercicio9"></p>
+        </article>
+        <article>
+            <h2>EJERCICIO 10</h2>
+            <p>
+                Se solicitan el nombre y 2 notas de x alumnos se almacenan en un array de objetos.
+            </p>
+            <ol>
+                <li>
+                    Sacar la media de cada alumno y almacenarlo en el objeto del alumno correspondiente
+                </li>
+                <li>Devolver que alumno ha sacado la mejor media y la nota media.</li>
+            </ol>
+            <p id="ejercicio10"></p>
         </article>
     </main>
     <script src="js/main.js"></script>
