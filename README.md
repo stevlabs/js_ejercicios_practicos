@@ -34,11 +34,13 @@ EJERCICIO 8 – se solicita al usuario que ingrese por teclado 10 números, el p
 Cuantos son positivos.
 Cuantos son negativos.
 Cuantos son pares.
+
 EJERCICIO 9 – Se solicitan 10 números enteros comprendidos entre 1 y 500, estos números se almacenarán en un array.
 
 Almacenar todos los números en un array.
 Almacenar en otro array los números comprendidos entre el 1 y 250.
 Almacenar en otro array los números comprendidos entre el 251 y 500.
+
 EJERCICIO 10 - Se solicitan el nombre y 2 notas de x alumnos se almacenan en un array de objetos.
 
 sacar la media de cada alumno y almacenarlo en el objeto del alumno correspondiente.
